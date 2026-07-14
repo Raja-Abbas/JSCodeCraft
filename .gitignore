@@ -30,8 +30,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +40,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# prisma
+prisma/dev.db
+prisma/dev.db-journal
+dev.db
+dev.db-journal
+
+# lockfiles
+package-lock.json
+
+# platform-specific
+@next/swc-win32-x64-msvc
+@next/swc-linux-x64-gnu
+lightningcss-win32-x64-msvc
+lightningcss-linux-x64-gnu
