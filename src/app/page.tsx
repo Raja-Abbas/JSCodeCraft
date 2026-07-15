@@ -68,14 +68,9 @@ export default function LandingPage() {
             </a>
           </nav>
           <div className="flex items-center gap-3">
-            <Link href="/login">
-              <Button variant="ghost" className="text-slate-300 hover:text-white hover:bg-white/10">
-                Sign In
-              </Button>
-            </Link>
-            <Link href="/register">
+            <Link href="/dashboard">
               <Button className="bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-medium shadow-lg shadow-cyan-500/20">
-                Get Started
+                Launch Tools
                 <ArrowRight size={16} className="ml-1.5" />
               </Button>
             </Link>
@@ -109,15 +104,10 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/register">
+            <Link href="/dashboard">
               <Button size="lg" className="bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-medium shadow-lg shadow-cyan-500/25 px-8">
-                Get Started Free
+                Launch Tools Free
                 <ArrowRight size={18} className="ml-2" />
-              </Button>
-            </Link>
-            <Link href="/login">
-              <Button size="lg" variant="outline" className="border-white/15 text-slate-300 hover:bg-white/5 hover:text-white">
-                Try Demo
               </Button>
             </Link>
           </div>
@@ -233,9 +223,9 @@ export default function LandingPage() {
                 Join thousands of developers using AI-powered insights to write better JavaScript.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link href="/register">
+                <Link href="/dashboard">
                   <Button size="lg" className="bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-medium shadow-lg shadow-cyan-500/25 px-8">
-                    Start for Free
+                    Launch Tools Free
                     <ArrowRight size={18} className="ml-2" />
                   </Button>
                 </Link>
@@ -260,9 +250,6 @@ export default function LandingPage() {
               <a href="#pricing" className="text-sm text-slate-400 hover:text-white transition-colors">
                 Pricing
               </a>
-              <Link href="/login" className="text-sm text-slate-400 hover:text-white transition-colors">
-                Sign In
-              </Link>
             </nav>
             <p className="text-sm text-slate-500">
               &copy; {new Date().getFullYear()} JSCodeCraft. All rights reserved.

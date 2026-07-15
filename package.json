@@ -50,6 +50,9 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
+  },
   "overrides": {
     "nanoid": "3.3.8"
   }
