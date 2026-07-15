@@ -1,6 +1,10 @@
 # JSCodeCraft
 
+> **Status:** MVP 1 — Feature-complete prototype. All core features implemented and working. Login removed for public testing — all pages freely accessible.
+
 AI-powered JavaScript code review and performance analysis platform for developers.
+
+> **Note:** Authentication has been removed for this MVP to allow free access to all features. No login or signup required.
 
 ## Features
 
@@ -36,12 +40,6 @@ npx prisma generate
 npx tsx prisma/seed.ts
 npm run dev
 ```
-
-## Demo Account
-
-| Email | Password |
-|-------|----------|
-| dev@jscodecraft.com | password123 |
 
 ## Pages
 
